@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-md-3"><div class="p-3 bg-white rounded shadow-sm">Total: <strong>{{ total }}</strong></div></div>
+  <div class="col-md-3"><div class="p-3 bg-white rounded shadow-sm">Pending: <strong>{{ pending }}</strong></div></div>
+  <div class="col-md-3"><div class="p-3 bg-white rounded shadow-sm">Confirmed: <strong>{{ confirmed }}</strong></div></div>
+  <div class="col-md-3"><div class="p-3 bg-white rounded shadow-sm">Cancelled: <strong>{{ cancelled }}</strong></div></div>
+</div>
+<div class="mt-4 card"><div class="card-body"><h5>Status Breakdown</h5><ul>{% for s in by_status %}<li>{{ s.status }}: {{ s.c }}</li>{% empty %}<li>No data</li>{% endfor %}</ul></div></div>
+{% endblock %}

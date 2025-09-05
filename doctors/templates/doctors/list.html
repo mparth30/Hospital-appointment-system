@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card"><div class="card-body"><h5>Available Doctors</h5>
+  <ul class="list-group">
+    {% for d in doctors %}<li class="list-group-item"><strong>{{ d.user.username }}</strong> - {{ d.specialization }} ({{ d.experience_years }} yrs) <a class="btn btn-sm btn-primary float-end" href="/appointments/book/?doctor={{ d.user.id }}">Book</a></li>{% endfor %}
+  </ul>
+</div></div>
+{% endblock %}
