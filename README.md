@@ -24,8 +24,8 @@
 
  •  Backend: Python, Django
 
- •  Frontend: HTML, CSS, JavaScript, Bootstrap (or Tailwind if used)
+ •  Frontend: HTML, CSS, JavaScript
 
- •  Database: SQLite (default) / PostgreSQL / MySQL
+ •  Database: PostgreSQL / MySQL
 
  •  Other Tools: Django ORM, Django Admin
