@@ -28,4 +28,4 @@
 
  •  Database: PostgreSQL / MySQL
 
- •  Other Tools: Django ORM, Django Admin
+ •  Other Tools: Django ORM 
