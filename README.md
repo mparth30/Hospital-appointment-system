@@ -1,6 +1,7 @@
 🏥 Hospital Appointment System :
 
-    A Hospital Appointment System built with Python (Django Framework) that allows patients to book appointments with doctors, manage schedules, and streamline hospital operations.
+    A Hospital Appointment System built with Python (Django Framework) that allows patients to book 
+    appointments with doctors, manage schedules, and streamline hospital operations.
 
    
 🚀 Features added in project :
